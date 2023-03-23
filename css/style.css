@@ -2236,3 +2236,7 @@ blockquote {
     font-size: 8px;
   }
 }
+
+.dropdown-menu{
+background: #333;
+}
