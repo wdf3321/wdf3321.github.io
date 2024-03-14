@@ -17,6 +17,9 @@ URL:            http://www.tabthemes.com/
 /*--------------------------------------------------
     01. General Styles 
 ---------------------------------------------------*/
+.h-100{
+  max-height: 200%;
+}
 html {
   overflow-y: scroll;
   -ms-overflow-style: scrollbar;
