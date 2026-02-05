@@ -7,9 +7,9 @@
     "contact": "Contact"
   },
   "intro": {
-    "welcome": "Welcome",
-    "title": "my personal website",
-    "btn": "View PortFolio"
+    "welcome": "Welcome to",
+    "title": "My Portfolio",
+    "btn": "Explore My Work"
   },
   "skills": {
     "visual": {
@@ -84,27 +84,39 @@
       "title": "Work Experience",
       "items": [
         {
-          "period": "2023.03 - 2024.03",
-          "company": "DTSTW Group(鼎泰勝集團)(Taipei)",
-          "role": "IT depart | Taipei City",
+          "period": "2024 - 2025",
+          "company": "HTC VIVE (Tokyo, Japan)",
+          "role": "",
           "tasks": [
-            "1.Web attandence system(2 companys use).",
-            "2.Bento shop POS system and ERP system.",
-            "3.Sale analysis system.",
-            "4.Group offical website.",
-            "5.Branch offical website."
+            "1. Hardware Diagnosis and Maintenance: Responsible for hardware fault diagnosis, repair, and quality inspection. Located hardware defects through precise failure analysis to improve equipment uptime and ensure operational availability.",
+            "2. Technical Support and Business Development: Collaborated with the BD team to provide software/hardware integration solutions and managed client-side PoC (Proof of Concept) verification.",
+            "3. Hardware Quality Verification: Led stress testing and environmental simulation for hardware equipment, ensuring product specifications met market demands, and authored data-driven analysis reports to support business promotion.",
+            "4. eCare System Development and Operation Support: Participated in architectural changes and functional testing of the eCare customer service system, optimizing UI/UX and fixing bugs based on consumer feedback.",
+            "5. Cross-Departmental Requirement Translation: Translated technical pain points from customer feedback into development requirements, optimizing product usability and stability to significantly improve customer satisfaction."
           ]
         },
         {
-          "period": "2017.07 - 2022.08",
+          "period": "2023 - 2024",
+          "company": "DTSTW Group (Taipei)",
+          "role": "",
+          "tasks": [
+            "1. Web attendance system (used by 2 companies).",
+            "2. Bento shop POS system and ERP system.",
+            "3. Sales analysis system.",
+            "4. Group official website.",
+            "5. Branch official website."
+          ]
+        },
+        {
+          "period": "2017 - 2022",
           "company": "Ching Sheng Pharmacy | Chan Yi-Chih ENT Clinic",
           "role": "Staff | New Taipei City",
           "tasks": [
-            "1.Handle HIS data processing tasks and verify identities and documents.",
-            "2.Maintain, update, and manage document files and database systems(visual foxpro).",
-            "3.Keep the environment clean and supplement various materials.",
-            "4.Maintain patient safety and privacy.",
-            "5.Complete tasks assigned."
+            "1. Handle HIS data processing tasks and verify identities and documents.",
+            "2. Maintain, update, and manage document files and database systems (Visual FoxPro).",
+            "3. Keep the environment clean and replenish supplies.",
+            "4. Maintain patient safety and privacy.",
+            "5. Complete assigned tasks."
           ]
         }
       ]

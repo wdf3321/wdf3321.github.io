@@ -33,7 +33,7 @@
               <span class="text-sm font-bold text-green-600 block mb-1 uppercase tracking-wide">{{ $rt(item.period) }}</span>
               <h4 class="text-xl font-bold">{{ $rt(item.company) }}</h4>
               <p class="text-green-600 mb-2 font-medium">{{ $rt(item.role) }}</p>
-              <ul class="list-disc list-inside text-gray-600 text-sm">
+              <ul class="text-gray-600 text-sm">
                 <li v-for="task in item.tasks" :key="task">{{ $rt(task) }}</li>
               </ul>
             </div>

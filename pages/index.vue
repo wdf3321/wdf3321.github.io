@@ -6,7 +6,8 @@
       class="relative h-screen flex items-center justify-center bg-cover bg-center bg-fixed bg-no-repeat"
       style="background-image: url('/img/banner.png')"
     >
-      <div class="absolute inset-0 bg-black/40"></div> <!-- Overlay -->
+      <!-- Gradient Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
       
       <div class="relative z-10 text-center px-4">
         <h3 class="text-2xl md:text-3xl font-medium text-green-400 mb-2 animate-fade-in-down">
@@ -17,15 +18,33 @@
         </h1>
         <a  
           href="#portfolio" 
-          class="inline-block px-8 py-3 border-2 border-green-500 text-green-500 font-bold uppercase hover:bg-green-500 hover:text-white transition-all duration-300 rounded-sm animate-fade-in-up"
+          class="inline-block px-8 py-3 border-2 border-green-500 text-green-500 font-bold uppercase hover:bg-green-500 hover:text-white transition-all duration-300 rounded-sm shadow-lg hover:shadow-green-500/50 animate-fade-in-up"
         >
           {{ $t('intro.btn') }}
         </a>
       </div>
+
+      <!-- Scroll Down Arrow -->
+      <a 
+        href="#services" 
+        class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce cursor-pointer"
+        aria-label="Scroll down"
+      >
+        <svg 
+          class="w-8 h-8 text-green-400 hover:text-green-300 transition-colors" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </a>
     </section>
 
     <!-- Services (Skills) -->
-    <SectionServices />
+    <section id="services">
+      <SectionServices />
+    </section>
 
     <!-- About -->
     <SectionAbout />

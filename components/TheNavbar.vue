@@ -7,7 +7,7 @@
       <!-- Logo -->
       <div class="logo-wrap">
         <NuxtLink :to="localePath('/')" class="text-2xl font-bold text-emerald-600 hover:text-green-500 transition-colors">
-          Yutung Yang
+          <!-- Yutung Yang -->
         </NuxtLink>
       </div>
 

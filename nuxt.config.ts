@@ -24,6 +24,17 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/', // Repository name if not user/org site, but this looks like a user site (wdf3321.github.io)
     buildAssetsDir: 'assets', // Optional: keeps assets cleaner
+    head: {
+      title: 'Yutung Yang | Portfolio',
+      meta: [
+        { name: 'description', content: 'Portfolio of Yutung Yang' },
+        { name: 'theme-color', content: '#10b981' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/favicon.png' }
+      ]
+    }
   },
   nitro: {
     preset: 'github-pages'

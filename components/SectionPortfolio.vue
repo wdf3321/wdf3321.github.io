@@ -8,7 +8,7 @@
       </div>
 
       <!-- Filters -->
-      <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <!-- <div class="flex flex-wrap justify-center gap-4 mb-12">
         <button 
           v-for="filter in filters" 
           :key="filter.key"
@@ -18,7 +18,7 @@
         >
           {{ filter.label }}
         </button>
-      </div>
+      </div> -->
 
       <!-- Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
